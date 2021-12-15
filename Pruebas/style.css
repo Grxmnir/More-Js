@@ -1,0 +1,33 @@
+body{
+    font-family:sans-serif;
+    color:#333
+}
+
+
+
+h2{
+    margin: 0;
+    flex-grow:1;
+    
+}
+.formulario{
+    text-align:center;
+    background-color:rgb(86, 86, 228);
+    margin:50px 30%;
+   padding:10px;
+    width:40%;
+    display:flex;
+    box-sizing:border-box;
+}
+
+input{
+    width:30px;
+    border:none;
+}
+
+input[type="button"]{
+width:auto;
+margin-left:5px;
+background-color:white;
+color:#48e;
+}

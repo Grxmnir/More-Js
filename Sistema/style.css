@@ -1,0 +1,27 @@
+body{
+    background-color:rgb(108, 108, 212)
+}
+
+
+.grid-container{
+    display:grid;
+    grid-template-rows: 50px;
+    grid-template-columns: repeat(4,minmax(min-content,max-content));
+    grid-auto-rows: 50px;
+}
+
+.grid-element{
+    padding:10px;
+    border:2px solid black;
+    margin:2px;
+    background-color:white;
+}
+
+button{
+    padding:10px;
+    background:white;
+    color:black;
+    margin:5px;
+    border:none;
+
+}
