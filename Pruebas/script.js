@@ -13,7 +13,7 @@ sendBtn.addEventListener("click", () => {
         mensaje = definirMensaje(prevRes);
         resultado = verificarAprobacion(7, 3, prevRes);
 
-    } catch(e) {
+    } catch(error) {
         resultado = "Hermano deja de hacer tonterias";
         mensaje = "Sé lo que estas intentando, para ya";
     }
