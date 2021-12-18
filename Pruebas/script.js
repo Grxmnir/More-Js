@@ -60,11 +60,11 @@ const definirMensaje = (pr) => {
             resultado = null;
 
     }
-
+return resultado;
 }
 
 
-const verificarAprobacion = (prevRes) => {
+const verificarAprobacion = (nota1, nota2, prevRes) => {
     promedio = (nota1 + nota2 + prevRes) / 3;
     if (promedio >= 7) {
         return "aprobado";
